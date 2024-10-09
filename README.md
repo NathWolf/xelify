@@ -99,6 +99,12 @@ The `Jackson_bw` algorithm schedules tasks by assigning them to workers and mach
 
 The algorithm optimally assigns tasks by finding the earliest available slots for both workers and machines, ensuring that deadlines and resource constraints are respected.
 
+#### Scheduling Output Visualization
+
+The following image shows the task scheduling result, where each worker is represented on the y-axis, and the tasks assigned to them are shown in time slots on the x-axis. Tasks that couldn't be scheduled are indicated separately.
+
+![Scheduling Output](./output.png)
+
 ## Repository Structure
 
 - **`xelify.py`**  
